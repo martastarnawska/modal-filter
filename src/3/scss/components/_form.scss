@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 15px 0 15px 0;
+    margin-bottom: 15px;
+
+    &__button {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        padding: 8px 20px;
+        border-radius: 30px;
+        border: none;
+        color: $white;
+        cursor: pointer;
+        transition: all .5s ease;
+        background-color: $blue;  
+
+        &:hover {
+            background-color: $blue-hover;
+        }
+    }
+
+    &__input {
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+    }
+}
